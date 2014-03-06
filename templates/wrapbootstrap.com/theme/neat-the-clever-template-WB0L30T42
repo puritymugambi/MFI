@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en-us">
+        <head>
+                <meta charset="utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+                    <title>Neat - The Clever Template | Business &amp; Corporate | WrapBootstrap - Bootstrap Themes & Templates</title>
+                    <meta name="description" content="Documentation Most of the content (and especially .info-thumbnail object) can be easily edited to fit the needs by using built-in">
+                    <link rel="canonical" href="https://wrapbootstrap.com/theme/neat-the-clever-template-WB0L30T42">
+                <meta name="viewport" content="width=1024">
+                    <link rel="alternate" type="application/rss+xml" title="WrapBootstrap" href="http://feeds.feedburner.com/wrapbootstrap">
+                <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+                <link rel="stylesheet" type="text/css" media="screen" href="//d85wutc1n854v.cloudfront.net/live/css/screen.css?buster-131228-2">
+                <script src="//cdn.optimizely.com/js/233905874.js"></script>
+                <script src="//d85wutc1n854v.cloudfront.net/live/js/behavior.js?buster-131228-1"></script>
+                <script>$(function(){ $("img.lazy").jail({effect: "fadeIn", speed: 500, placeholder: "//d85wutc1n854v.cloudfront.net/live/imgs/placeholder.gif"}); });</script>
+                <noscript><style>.lazy_product_image { display: none; }</style></noscript>
+                <script type="text/javascript">
+                        var _gaq = _gaq || [];
+                        _gaq.push(['_setAccount', 'UA-28871117-1']);
+                        _gaq.push(['_setDomainName', 'wrapbootstrap.com']);
+                        _gaq.push(['_trackPageview']);
+                        (function() {
+                                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                        })();
+                </script>
+                <link rel="shortcut icon" href="//d85wutc1n854v.cloudfront.net/live/imgs/favicon.ico">
+                <link rel="apple-touch-icon" sizes="129x129" href="//d85wutc1n854v.cloudfront.net/live/imgs/apple-touch-icon.png"> 
+        </head>
+        <body>
+                <div id="main">
+                            <div id="raffle-promo">
+                                    <div class="container">
+                                            <div class="widget"><a href="https://twitter.com/share" class="twitter-share-button" data-url="https://wrapbootstrap.com/" data-text="WrapBootstrap - Bootstrap Themes & Templates" data-via="wrapbootstrap" data-size="normal">Tweet</a></div>
+                                            <a class="close" href="#" onclick="$('#raffle-promo').hide(); $.cookie('raffle', '0', {expires: 30}); _gaq.push(['_trackEvent', 'raffle', 'close']); return false;">close</a>
+                                    </div>
+                            </div>
+                        <div class="topbar">
+                                <div class="fill">
+                                        <div class="container">
+                                                <a class="brand" href="/" title="WrapBootstrap - Bootstrap Themes & Templates"><img src="//d85wutc1n854v.cloudfront.net/live/imgs/logo.png" width="187" height="28" alt="WrapBootstrap" title="WrapBootstrap - Bootstrap Themes & Templates"></a>
+                                                <ul class="nav">
+                                                            <li class="active"><a href="/themes" title="Bootstrap themes and templates">Themes</a></li>
+                                                            <li><a href="/logos" title="Logo templates">Logos</a></li>
+                                                                <li><a href="/sell" title="Sell your Bootstrap themes and templates">Selling</a></li>
+                                                            <li><a href="/bounties" title="Bonuses for uploading the most wanted themes">Bounties</a></li>
+                                                        <li><a id="bsw" href="http://bootswatch.com/" data-placement="right" rel="twipsy" target="_blank" title="Free themes for Bootstrap" onclick="_gaq.push(['_trackEvent', 'click', 'outbound', 'bsw']);">Bootswatch <i class="icon-share-alt icon-white"></i></a></li>
+                                                </ul>
+                                                    <ul class="nav secondary-nav">
+                                                                <li><a href="/signin" style="padding-left: 17px; background: transparent url('//d85wutc1n854v.cloudfront.net/live/imgs/lock_icon.png') no-repeat 0px center;">Sign in</a></li>
+                                                            <li><a href="/signup">Sign up</a></li>
+                                                    </ul>
+                                        </div>
+                                </div>
+                        </div>
+                        <div id="menu">
+                                <div class="container">
+                                        <div id="categories">
+                                                <div class="category_button"><a href="#" title="Select a category">Categories</a></div>
+                                                <div class="dropdown_container">
+                                                        <div class="categories">
+                                                                <ul>
+                                                                        <li><a href="/themes/admin" title="Admin, dashboard, and other backend themes">Admin &amp; Dashboards <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/landing-pages" title="Landing page themes">Landing Pages <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/business" title="Business and corporate themes">Business &amp; Corporate <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/portfolios" title="Portfolio themes">Portfolios <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/resumes-cv" title="Resume and Curriculum Vitae (CV) themes">Resumes &amp; CV <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/e-commerce" title="E-Commerce and shopping themes">E-Commerce <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/components" title="Theme components">Components <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/blogs-magazines" title="Blog and magazine themes">Blogs &amp; Magazines <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/wordpress" title="Bootstrap WordPress themes">WordPress <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/other" title="Miscellaneous themes">Other <span>&nbsp;</span></a></li>
+                                                                </ul>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                        <div id="search">
+                                                <form action="/search" method="get">
+                                                        <input class="query" name="q" type="text" placeholder="Enter search terms" size="29" value=""><input class="submit button" type="submit" value="">
+                                                </form>
+                                        </div>
+                                        <ul id="recent" class="clearfix">
+                                            <li><a href="/sku/WB05N1SL7" style="background-image: url('//d85wutc1n854v.cloudfront.net/live/products/rv/WB05N1SL7.png');">&nbsp;</a></li>
+                                            <li><a href="/sku/WB048D702" style="background-image: url('//d85wutc1n854v.cloudfront.net/live/products/rv/WB048D702.png');">&nbsp;</a></li>
+                                            <li><a href="/sku/WB0825GG7" style="background-image: url('//d85wutc1n854v.cloudfront.net/live/products/rv/WB0825GG7.png');">&nbsp;</a></li>
+                                            <li><a href="/sku/WB0BS4961" style="background-image: url('//d85wutc1n854v.cloudfront.net/live/products/rv/WB0BS4961.png');">&nbsp;</a></li>
+                                            <li><a href="/sku/WB07T0755" style="background-image: url('//d85wutc1n854v.cloudfront.net/live/products/rv/WB07T0755.png');">&nbsp;</a></li>
+                                        </ul>
+        
+                                </div>
+                        </div>
+        <div id="page_theme">
+    <div class="page-header-top">
+        <div class="container">
+                        <div class="save_box"><a class="save" href="/save/WB0L30T42?next=/theme/neat-the-clever-template-WB0L30T42" title="Add to your Saved list"></a></div>
+            <h1><a href="/theme/neat-the-clever-template-WB0L30T42" title="Neat - The Clever Template"><span id="thing_name" itemprop="name">Neat - The Clever Template</span></a></h1>
+            <div class="share_buttons"><a class="facebook" href="#" onclick="window.open('http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwrapbootstrap.com%2Ftheme%2Fneat-the-clever-template-WB0L30T42&t=Neat%20-%20The%20Clever%20Template','','scrollbars=yes,width=660,height=328'); return false;" title="Share this"></a><a class="twitter" href="#" onclick="window.open('https://twitter.com/intent/tweet?url=https%3A%2F%2Fwrapbootstrap.com%2Ftheme%2Fneat-the-clever-template-WB0L30T42&text=Neat%20-%20The%20Clever%20Template','','scrollbars=yes,width=730,height=252'); return false;" title="Tweet this"></a></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="span16">
+                <div class="wrapper">
+                    <div class="product_main">
+                        <div class="product">
+                            <div class="inner">
+                                <div class="image">
+                                    <a class="screenshot" href="http://wrapbootstrap.com/preview/WB0L30T42" title="Neat - The Clever Template" rel="nofollow" target="_blank"><img id="thing_image" itemprop="image" src="//d85wutc1n854v.cloudfront.net/live/products/600x375/WB0L30T42.png?v=1.3" width="600" height="375" title="Neat - The Clever Template" alt="Neat - The Clever Template"></a>
+                                    <div>
+                                        <a class="btn primary live_preview" href="http://wrapbootstrap.com/preview/WB0L30T42" rel="nofollow" target="_blank" title="Live preview"><span>Live preview</span></a>&nbsp;
+                                        <a class="btn" href="#" onclick="document.getElementById('order').submit(); return false;" title="Purchase now using PayPal" rel="nofollow">Purchase now &raquo;</a>
+                                    </div>
+                                </div>
+                            <div id="description" itemprop="description">
+                                <p><img alt="NEAT description" src="https://d1dlf4qvtlhqrp.cloudfront.net/slurp?i=http%3A%2F%2Fw3widgets.com%2Ftemplates%2Fneat%2Fdescription%2Fneat-infographic-v2.jpg"></p>
+<h2>Documentation</h2>
+<p>Most of the content (and especially .info-thumbnail object) can be easily edited to fit the needs by using built-in color classes. There are 2 categories of color classes:</p>
+<ul>
+<li>background </li>
+<li>color</li>
+</ul>
+<p><code>Background</code> classes were made to change the background color while <code>color</code> classes are targeting color css attribute. They are using "Flat UI" color palette that you can find here <a href="/out?u=http%3A%2F%2Fflatuicolors.com%2F." target="_blank">http://flatuicolors.com/.</a> To make use of color class just add a class to selected object formatted like this: <code>{color_class_category}-{flat_ul_color_name}</code>, eg.: <code>background-emerald</code> (in addition you have also available: white, black, lead, lead-light, lead-dark). You can learn more about color classes from examples that are a part of the package.</p>
+<p>Neat template also introduces .info-thumbnail multipurpose object. It's used to display any kind of info/content boxes including pricing tables and gallery images. It's very clever and easy to use.</p>
+<h2>Responsive Slider</h2>
+<p>w3widgets Responsive Slider is a part of NEAT template package. It's very flexible carousel plugin with touch enabled 1 to 1 movement that can be heavily customized. See more info on plugins website: <a href="/out?u=http%3A%2F%2Fw3widgets.com%2Fresponsive-slider%2F" target="_blank">http://w3widgets.com/responsive-slider/</a></p>
+<h2>Responsive Calendar</h2>
+<p>w3widgets Responsive Calendar is a part of NEAT template package. It is a small website widget. It displays month view with highlighted days in which some evens occur. It provides minimal required functionality while maintaining maximum flexibility and extendibility. See more info on plugins website: <a href="/out?u=http%3A%2F%2Fw3widgets.com%2Fresponsive-calendar%2F" target="_blank">http://w3widgets.com/responsive-calendar/</a></p>
+<h2>List of pre-styled pages</h2>
+<ul>
+<li>Home</li>
+<li>About us</li>
+<li>Pricing tables</li>
+<li>Services</li>
+<li>FAQ</li>
+<li>Gallery</li>
+<li>Registration</li>
+<li>Login</li>
+<li>Registration/Login</li>
+<li>404 error page</li>
+<li>Article</li>
+<li>Blog items list</li>
+<li>Blog item</li>
+<li>Portfolio items list</li>
+<li>Portfolio item</li>
+<li>Contact</li>
+</ul>
+<h2>Change log</h2>
+<p><em>v1.3</em></p>
+<ul>
+<li>Some color changes</li>
+<li>Slider gets next and prev buttons</li>
+</ul>
+<p><em>v1.2</em></p>
+<ul>
+<li>Added full width news that you can use inside a section</li>
+<li>Added news that you can put inside the thumbnail</li>
+<li>Added sorting and filtering plugin mixItUp for easy thumbnails rearrangements. Useful for eg. services presentation.</li>
+<li>Added a possibility to recolor the top menu</li>
+<li>Changed main project font to "Lato"</li>
+<li>Added x-large h1 element for stylish sections</li>
+<li>Added color versions</li>
+<li>Some changes and fixes was applied to the info-thumbnail elements, eg. now you can put image between different elements not on the top of the box only.</li>
+<li>Updated cdn-ed version of bootstrap to 3.1.1</li>
+<li>Updated other scripts to a newest versions</li>
+</ul>
+<p><em>v1.1</em></p>
+<ul>
+<li>Made animations and effects more consistent</li>
+<li>Added the possibility to align the slider captions to the left,
+   right or center</li>
+<li>Added dropdown menu css3 animation</li>
+<li>Buttons background color change is now animated</li>
+<li>Few bugfixes</li>
+</ul>
+<p><em>v1.0</em></p>
+<ul>
+<li>Initial release</li>
+</ul>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_info">
+                        <p><a href="/signin?next=/theme/neat-the-clever-template-WB0L30T42" title="Sign in or sign up">Sign in</a> to add this purchase to your account</p>
+                        <form id="order" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----
+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
+-----END PKCS7-----
+">
+                            <a id="buynow" class="btn primary btn-xlarge" href="#" rel="nofollow" onclick="document.getElementById('order').submit(); return false;"><span id="offer_price" itemprop="price" style="">$16</span></a>
+                            <noscript>
+                                <style>#buynow { display: none; } #page_theme #order input { display: inline; }</style>
+                                <input type="submit" class="btn primary btn-xlarge" value="$16">
+                            </noscript>
+                        </form>
+                        <div class="coffee-pitch"><span>That's about 6 cups of coffee</span></div>
+                        <div class="purchase_info">
+                            <div class="purchases">
+                                <span class="count">148</span><span class="count_label">Purchases</span>
+                            </div>
+                            <div class="license">
+                                <span class="license_label">License:</span>
+                                <a class="license_type" href="/help/licenses" target="_blank" title="Usage licenses">
+                                Single application
+                                </a>
+                            </div>
+                        </div>
+                        <div class="addons">
+                            <p>Licenses: <span><a href="/help/licenses" target="_blank" title="Usage licenses">Details &raquo;</a></span></p>
+                        <div class="addon-selected sunken container">
+                            Single application <span>$16</span>
+                        </div>
+                        <div class="addon container">
+                            <a href="/theme/neat-the-clever-template-WB0L30T42?l=m">Multiple applications <span><b id="ma-star" style="display: none; color: #FFD700;">&#x2739;</b> $60</span></a>
+                        </div>
+                        <div class="addon container">
+                            <a href="/theme/neat-the-clever-template-WB0L30T42?l=e">Extended <span>$600</span></a>
+                        </div>
+                        </div>
+                        <div class="info_wrapper">
+                            <p class="sidebar_title">Item attributes</p>
+                            <table class="attributes zebra-striped">
+                                <tbody>
+                                    <tr class="first"><td class="key"><strong>Version:</strong></td><td class="value"><span id="creativework_version" itemprop="version">1.3</span></td></tr>
+                                    <tr>
+                                        <td class="key"><strong>Bootstrap:</strong></td>
+                                        <td class="value">Compatible with 3.1.x</td>
+                                    </tr>
+                                    <tr><td class="key"><strong>Columns:</strong></td><td class="value">n/a</td></tr>
+                                    <tr>
+                                        <td class="key"><strong>Layouts:</strong></td>
+                                        <td class="value">
+                                            <ul>
+                                            <li>Fluid</li>
+                                            <li>Responsive</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key"><strong>Browsers:</strong></td>
+                                        <td class="value">
+                                            <ul>
+                                            <li>Internet Explorer 10</li>
+                                            <li>Internet Explorer 11</li>
+                                            <li>Internet Explorer 8</li>
+                                            <li>Internet Explorer 9</li>
+                                            <li>Latest Chrome</li>
+                                            <li>Latest Firefox</li>
+                                            <li>Latest Opera</li>
+                                            <li>Latest Safari</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr><td class="key"><strong>Uses LESS:</strong></td><td class="value">No</td></tr>
+                                    <tr>
+                                        <td class="key"><strong>Categories:</strong></td>
+                                        <td class="value">
+                                            <ul>
+                                            <li><a href="/themes/business" title="Business &amp; Corporate"><span id="offer_category" itemprop="category">Business &amp; Corporate</span></a></li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key"><strong>Tags:</strong></td>
+                                        <td class="value"><span id="creativework_keywords" itemprop="keywords"><a href="/tag/blog" title="Themes tagged with blog">blog</a>, <a href="/tag/blue" title="Themes tagged with blue">blue</a>, <a href="/tag/business" title="Themes tagged with business">business</a>, <a href="/tag/calendar" title="Themes tagged with calendar">calendar</a>, <a href="/tag/clear" title="Themes tagged with clear">clear</a>, <a href="/tag/gallery" title="Themes tagged with gallery">gallery</a>, <a href="/tag/neat" title="Themes tagged with neat">neat</a>, <a href="/tag/portfolio" title="Themes tagged with portfolio">portfolio</a>, <a href="/tag/pricing" title="Themes tagged with pricing">pricing</a>, <a href="/tag/slider" title="Themes tagged with slider">slider</a></span></td>
+                                    </tr>
+                                    <tr><td class="key"><strong>Item#:</strong></td><td class="value"><span id="offer_sku" itemprop="sku">WB0L30T42</span></td></tr>
+                                    <tr><td class="key"><strong>Released:</strong></td><td class="value">3 months ago</td></tr>
+                                    <tr><td class="key"><strong>Updated:</strong></td><td class="value">5 days ago</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="exclusive"><img src="//d85wutc1n854v.cloudfront.net/live/imgs/wb_exclusive.png" width="205" height="29" title="Sold exclusively on WrapBootstrap" alt="Sold exclusively on WrapBootstrap"></div>
+                        <div class="info_wrapper">
+                            <p class="sidebar_title">Item author</p>
+                            <div class="seller">
+                                <a href="/user/lkokosz" title="lkokosz"><img src="//d85wutc1n854v.cloudfront.net/live/imgs/no-picture-small.jpg" width="40" height="40" alt="lkokosz" title="lkokosz"></a>
+                                <div class="info">
+                                    <p class="user"><a href="/user/lkokosz" title="lkokosz"><span id="product_manufacturer" itemprop="manufacturer">lkokosz</span></a></p>
+                                    <p class="days">Signed up 6 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="item_cs_header">Need an admin theme?</p>
+                        <div class="item_cs"><a href="/theme/genyx-responsive-admin-template-WB0B79M8D" title="Genyx - Responsive Admin Template"><img src="//d85wutc1n854v.cloudfront.net/live/products/icons/WB0B79M8D.jpg?v=1.3" width="252" height="158"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function bitpay_invoice(email){
+        if ($('#bitpay_frame').is(':visible') == false){
+            $('#bitpay_frame_loading').show();
+            $.ajax({url: '/purchase/invoice-bitpay/WB0L30T42/s', data: {buyer_email: email}, dataType: 'text', type: 'POST', timeout: 10000})
+                .done(function(data, textStatus, jqXHR){
+                    $('#bitpay_frame_loading').hide();
+                    if (data.length > 0){
+                        $('#bitpay_frame').show();
+                        $('#bitpay_frame_inner').html('<iframe src="' + data + '" scrolling="no" allowtransparency="true" frameborder="0" style="width:500px;height:150px;overflow:hidden;border:none;"></iframe>');
+                    } else {
+                        $('#bitpay_frame_error').show();
+                    }
+                })
+                .fail(function(){
+                    $('#bitpay_frame_loading').hide();
+                    $('#bitpay_frame_error').show();
+                })
+                .always(function(){
+                    $('#bitpay_frame_loading').hide();
+                });
+        }
+    };
+    function bitpay_payment(user, email, start){
+        $('#bitpay_modal').bind('show', function(){
+            $('#bitpay_frame_error').hide();
+            $('#bitpay_frame_loading').hide();
+            
+        });
+        $('#bitpay_modal').bind('shown', function(){
+            bitpay_invoice(email);
+        });
+        $('#bitpay_modal').bind('hidden', function(){
+            if ($('#bitpay_frame').is(':visible') == false){
+                $('#bitpay_frame_loading').hide();
+                $('#bitpay_frame_error').hide();
+            }
+        });
+        if (start == true){
+            bitpay_invoice(email);
+        }
+    };
+    $(document).ready(function(){
+    $('#bitpay_buyer_info').show();
+    $('#bitpay_continue').click(function(){
+        var email = $('#bitpay_email').val();
+        if (email.length == 0 || email.indexOf('@') == -1) { return false; }
+        $('#bitpay_email').hide();
+        $('#bitpay_continue').hide();
+        $('#bitpay_buyer_info p').hide();
+        $('#bitpay_frame_buyer').text(email);
+        $('#bitpay_buyer_info').css({'padding-bottom': '17px', 'padding-top': '0px', 'margin-bottom': '10px', 'border-bottom': '1px solid #eee'});
+        $('#bitpay_frame_loading').css({'margin-top': '40px'});
+        $('#bitpay_frame_error').css({'margin-top': '40px'});
+        bitpay_payment(false, email, true);
+    });
+    });
+</script>
+
+                            <div style="padding-top: 35px; background: #eee url('//d85wutc1n854v.cloudfront.net/live/imgs/darkgrain.png');">
+                                    <div class="container">
+                                            <div class="social_stuff">
+                                                    <div class="widget">
+                                                            <div class="twitter">
+                                                                    <div class="stat"><a href="http://twitter.com/wrapbootstrap" title="Follow us on Twitter!" target="_blank" rel="nofollow"><span class="count">8.5k</span><span class="desc">Followers</span></a></div>
+                                                            </div>
+                                                            <div class="facebook">
+                                                                    <div class="stat"><a href="http://www.facebook.com/wrapbootstrap" title="Follow us on Facebook!" target="_blank" rel="nofollow"><span class="count">7.8k</span><span class="desc">Followers</span></a></div>
+                                                            </div>
+                                                            <div class="rss">
+                                                                    <div class="stat"><a href="http://feeds.feedburner.com/wrapbootstrap" title="Subscribe to our RSS feed!" target="_blank" rel="nofollow"><span class="count">334</span><span class="desc">Subscribers</span></a></div>
+                                                            </div>
+                                                            <div class="email">
+                                                                    <div class="stat"><a href="http://eepurl.com/iVhpj" title="Subscribe to our newsletter!" target="_blank" rel="nofollow"><span class="count">25.1k</span><span class="desc">Subscribers</span></a></div>
+                                                            </div>
+                                                    </div>
+                                                    <div class="newsletter">
+                                                            <p><strong>See new themes weekly:</strong></p>
+                                                            <form action="https://wrapbootstrap.us4.list-manage.com/subscribe/post?u=a6573691f554e1ed4eda8c965&amp;id=a9f54c6355" method="post" target="_blank">
+                                                                    <input type="text" name="EMAIL" class="span5" placeholder="Email address">&nbsp;<input class="btn primary" type="submit" name="subscribe" value="Subscribe">
+                                                            </form>
+                                                    </div>
+                                            </div>
+                                    </div>
+                            </div>
+                            <div id="about_bootstrap">
+                                    <div class="container">
+                                            <section>
+                                                    <div class="row">
+                                                            <div class="span-one-third">
+                                                                    <h3>About Bootstrap</h3>
+                                                                    <p><a href="http://getbootstrap.com/" target="_blank" title="Bootstrap">Bootstrap</a> is designed to help people of all skill levels &ndash; designer or developer, huge nerd or early beginner. Use it as a complete kit or use it to start something more complex.</p>
+                                                                    <p>Unlike other front-end toolkits, Bootstrap was designed first and foremost as a styleguide to document not only its features, but best practices and living, coded examples.</p>
+                                                                    <p>Built to support new HTML5 elements and syntax with progressively enhanced components.</p>
+                                                            </div>
+                                                            <div class="span-one-third">
+                                                                    <h3>Browser support</h3>
+                                                                    <p>Bootstrap is tested and supported in major modern browsers like Chrome, Firefox, and Internet Explorer.</p>
+                                                                    <img src="//d85wutc1n854v.cloudfront.net/live/imgs/browser_logos.png" width="280" height="52" alt="Tested and supported in Chrome, Safari, Firefox, Internet Explorer, and Opera." title="Tested and supported in Chrome, Safari, Firefox, Internet Explorer, and Opera.">
+                                                                    <ul>
+                                                                            <li>Latest Chrome</li>
+                                                                            <li>Latest Safari</li>
+                                                                            <li>Latest Firefox</li>
+                                                                            <li>Internet Explorer 8/9/10/11</li>
+                                                                            <li>Latest Opera</li>
+                                                                    </ul>
+                                                            </div>
+                                                            <div class="span-one-third">
+                                                                    <h3>Features &amp; includes</h3>
+                                                                    <p>Bootstrap provides an unparalleled array of features and reusable components that let you hit the ground running:</p>
+                                                                    <ul>
+                                                                            <li>Responsive <a href="http://getbootstrap.com/css/#grid" title="Bootstrap documentation, grid system" target="_blank">12-column grid</a></li>
+                                                                            <li>12 custom, modular <a href="http://getbootstrap.com/javascript/" target="_blank" title="Bootstrap documentation, JavaScript">jQuery plugins</a></li>
+                                                                            <li><a href="http://getbootstrap.com/css/" title="Bootstrap documentation, Base CSS" target="_blank">CSS styles</a> for forms, navigation &amp; more</li>
+                                                                            <li>Dozens of reusable <a href="http://getbootstrap.com/components/" target="_blank" title="Bootstrap documentation, Components">components</a></li>
+                                                                            <li>Components are scaled according to a range of resolutions and devices</li>
+                                                                            <li>Built with <a href="http://lesscss.org/" target="_blank" title="LESS - The dynamic stylesheet language">LESS</a> and <a href="http://sass-lang.com/" target="_blank" title="Sass - Syntactically Awesome Style Sheets">Sass</a> (CSS included)</li>
+                                                                            <li>Complete styleguide documentation</li>
+                                                                    </ul>
+                                                            </div>
+                                                    </div>
+                                            </section>
+                                    </div>
+                            </div>
+                        <div class="push"></div>
+                </div>
+                <div id="footer">
+                        <div class="container">
+                                <footer>
+                                        <p>
+                                                <a href="/support" title="Buyer and seller support"><b>Support</b></a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;<a href="http://support.wrapbootstrap.com/" title="Knowledge base" target="_none"><b>Knowledge base</b></a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;<a href="/affiliates" title="Affiliates">Affiliates</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;<a href="/privacy" title="Privacy policy">Privacy</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;<a href="/terms" title="Terms of use">Terms</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;<a href="/about" title="About us">About</a> <span class="pull-right">&copy; 2014 <a href="http://wrapmarket.com/" title="WrapMarket LLC" target="_blank">WrapMarket LLC</a></span>
+                                                    <span class="pull-right" style="position: relative; top: -2px;"><a href="https://twitter.com/wrapbootstrap" class="twitter-follow-button" data-width="80px" data-show-count="false" data-show-screen-name="false">Follow @wrapbootstrap</a></span>
+                                        </p>
+                                </footer>
+                        </div>
+                </div>
+                <div id="subscribe_dialog">
+                        <div class="shell">
+                                <div class="topbar"><a class="close" href="#">Close</a></div>
+                                <div class="inner"></div>
+                        </div>
+                </div>
+                <div id="mask"></div>
+                <script>$(document).ready(function(){ $(".alert-message").alert(); $("#bsw").twipsy(); });</script>
+                    <!-- twitter widget --><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                <script type="text/javascript">
+                        adroll_adv_id = "7ZLH3TJ7RFHP5IXPNREKUT";
+                        adroll_pix_id = "FXS6CQLPC5G7ZN6YQH3GWR";
+                        (function () {
+                                var oldonload = window.onload;
+                                window.onload = function(){
+                                __adroll_loaded=true;
+                                var scr = document.createElement("script");
+                                var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+                                scr.setAttribute('async', 'true');
+                                scr.type = "text/javascript";
+                                scr.src = host + "/j/roundtrip.js";
+                                ((document.getElementsByTagName('head') || [null])[0] ||
+                                document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+                                if(oldonload){oldonload()}};
+                        }());
+                </script>
+        </body>
+</html>

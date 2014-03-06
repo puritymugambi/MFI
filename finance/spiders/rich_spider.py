@@ -1,7 +1,7 @@
 from scrapy.spider import BaseSpider
 from scrapy.selector import Selector
 
-from ..items import NseItem
+from ..items import StockItem
 
 
 class RichSpider(BaseSpider):

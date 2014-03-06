@@ -4,8 +4,9 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 
+
 class FinancePipeline(object):
     def process_item(self, item, spider):
+        item['inst'] = spider.get_institution
         item.save()
         return item
-

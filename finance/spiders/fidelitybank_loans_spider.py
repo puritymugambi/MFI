@@ -1,7 +1,7 @@
 from scrapy.selector import Selector
 from finance.spiders import Nini
 
-from ..items import FidelityBankLoanItem as FBLI
+from ..items import LoanItem as FBLI
 
 
 class FidelityBankLoanSpider(Nini):

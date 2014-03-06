@@ -9,13 +9,14 @@ from ui.models import Institution
 
 class Nini(BaseSpider):
     #this is bad!!!
-    institution_id = None
+    institution = None
     institution_name = None
 
     @property
-    def get_institution_id(self):
+    def get_institution(self):
         if self.institution_name:
             institution = Institution.objects.get(name=self.institution_name)
-            institution_id = institution.id
-            return institution_id
+            self.institution = institution
+            return institution
         return None
+

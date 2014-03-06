@@ -1,7 +1,7 @@
 from scrapy.selector import Selector
 from finance.spiders import Nini
 
-from ..items import EcobankLoanItem as ELI
+from ..items import LoanItem
 
 
 class EcobankLoanSpider(Nini):
@@ -11,26 +11,29 @@ class EcobankLoanSpider(Nini):
         "http://www.ecobank.com/loans.aspx",
     ]
 
+    institution_name = 'Eco'
 
-    #    def parse(self, response):
-    #        sel = Selector(response)
-    #        base = sel.xpath('//*[@id="MainArea"]/table/tbody/tr/td[3]/table[2]/tbody/tr[1]')
-    #        loan_td = base.xpath("td")
-    #        item = ELI()
-    #        item['loans']= [{"name":i.xpath('div[1]/text()').extract(),"desc": i.xpath('div[2]/text()').extract()} for i in loan_td]
-
-    #        return item
 
     def parse(self, response):
         sel = Selector(response)
         defs, defs1 = sel.xpath('//div[@class="def"]/text()'), sel.xpath('//div[@class="def1"]/text()')
-        item = ELI()
-        loans = []
-        loans.append({'name': defs[0].extract(), 'desc': defs1[1].extract()})
-        loans.append({
-            'name': defs[1].extract(), 'desc': "".join([i.extract() for i in defs1[2:-1]])})
-        loans.append({'name': defs[-1].extract(), 'desc': defs1[-1].extract()})
-        item['loans'] = loans
-        return item
 
+        #item = LoanItem()
+        items = []
+        item = LoanItem()
+        item['loan_name'] = defs[0].extract()
+        item['desc'] = defs1[1].extract()
+        items.append(item)
+
+        item = LoanItem()
+        item['loan_name'] = defs[1].extract()
+        item['desc'] = "".join([i.extract() for i in defs1[2:-1]])
+        items.append(item)
+
+        item = LoanItem()
+        item['loan_name'] = defs[-1].extract()
+        item['desc'] = defs1[-1].extract()
+        items.append(item)
+        #item['loans'] = loans
+        return items
 

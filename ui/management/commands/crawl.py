@@ -2,7 +2,7 @@
 """
 The MIT License
 
-Copyright (c) 2014, mbacho (Chomba Ng'ang'a)
+Copyright (c) 2014, gudgal (Purity Mugambi)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -56,3 +56,5 @@ class Command(BaseCommand):
             execute(default_args)
         except KeyError, ke:
             self.stdout.write('iyo spider haionekani')
+
+

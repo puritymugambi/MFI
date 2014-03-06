@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en-us">
+        <head>
+                <meta charset="utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+                    <title>Genyx - Responsive Admin Template | Admin &amp; Dashboards | WrapBootstrap - Bootstrap Themes & Templates</title>
+                    <meta name="description" content="About Genyx – Responsive Admin Template Genyx admin is powerful template based on popular Twitter Bootstrap framework, template is great">
+                    <link rel="canonical" href="https://wrapbootstrap.com/theme/genyx-responsive-admin-template-WB0B79M8D">
+                <meta name="viewport" content="width=1024">
+                    <link rel="alternate" type="application/rss+xml" title="WrapBootstrap" href="http://feeds.feedburner.com/wrapbootstrap">
+                <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+                <link rel="stylesheet" type="text/css" media="screen" href="//d85wutc1n854v.cloudfront.net/live/css/screen.css?buster-131228-2">
+                <script src="//cdn.optimizely.com/js/233905874.js"></script>
+                <script src="//d85wutc1n854v.cloudfront.net/live/js/behavior.js?buster-131228-1"></script>
+                <script>$(function(){ $("img.lazy").jail({effect: "fadeIn", speed: 500, placeholder: "//d85wutc1n854v.cloudfront.net/live/imgs/placeholder.gif"}); });</script>
+                <noscript><style>.lazy_product_image { display: none; }</style></noscript>
+                <script type="text/javascript">
+                        var _gaq = _gaq || [];
+                        _gaq.push(['_setAccount', 'UA-28871117-1']);
+                        _gaq.push(['_setDomainName', 'wrapbootstrap.com']);
+                        _gaq.push(['_trackPageview']);
+                        (function() {
+                                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                        })();
+                </script>
+                <link rel="shortcut icon" href="//d85wutc1n854v.cloudfront.net/live/imgs/favicon.ico">
+                <link rel="apple-touch-icon" sizes="129x129" href="//d85wutc1n854v.cloudfront.net/live/imgs/apple-touch-icon.png"> 
+        </head>
+        <body>
+                <div id="main">
+                            <div id="raffle-promo">
+                                    <div class="container">
+                                            <div class="widget"><a href="https://twitter.com/share" class="twitter-share-button" data-url="https://wrapbootstrap.com/" data-text="WrapBootstrap - Bootstrap Themes & Templates" data-via="wrapbootstrap" data-size="normal">Tweet</a></div>
+                                            <a class="close" href="#" onclick="$('#raffle-promo').hide(); $.cookie('raffle', '0', {expires: 30}); _gaq.push(['_trackEvent', 'raffle', 'close']); return false;">close</a>
+                                    </div>
+                            </div>
+                        <div class="topbar">
+                                <div class="fill">
+                                        <div class="container">
+                                                <a class="brand" href="/" title="WrapBootstrap - Bootstrap Themes & Templates"><img src="//d85wutc1n854v.cloudfront.net/live/imgs/logo.png" width="187" height="28" alt="WrapBootstrap" title="WrapBootstrap - Bootstrap Themes & Templates"></a>
+                                                <ul class="nav">
+                                                            <li class="active"><a href="/themes" title="Bootstrap themes and templates">Themes</a></li>
+                                                            <li><a href="/logos" title="Logo templates">Logos</a></li>
+                                                                <li><a href="/sell" title="Sell your Bootstrap themes and templates">Selling</a></li>
+                                                            <li><a href="/bounties" title="Bonuses for uploading the most wanted themes">Bounties</a></li>
+                                                        <li><a id="bsw" href="http://bootswatch.com/" data-placement="right" rel="twipsy" target="_blank" title="Free themes for Bootstrap" onclick="_gaq.push(['_trackEvent', 'click', 'outbound', 'bsw']);">Bootswatch <i class="icon-share-alt icon-white"></i></a></li>
+                                                </ul>
+                                                    <ul class="nav secondary-nav">
+                                                                <li><a href="/signin" style="padding-left: 17px; background: transparent url('//d85wutc1n854v.cloudfront.net/live/imgs/lock_icon.png') no-repeat 0px center;">Sign in</a></li>
+                                                            <li><a href="/signup">Sign up</a></li>
+                                                    </ul>
+                                        </div>
+                                </div>
+                        </div>
+                        <div id="menu">
+                                <div class="container">
+                                        <div id="categories">
+                                                <div class="category_button"><a href="#" title="Select a category">Categories</a></div>
+                                                <div class="dropdown_container">
+                                                        <div class="categories">
+                                                                <ul>
+                                                                        <li><a href="/themes/admin" title="Admin, dashboard, and other backend themes">Admin &amp; Dashboards <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/landing-pages" title="Landing page themes">Landing Pages <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/business" title="Business and corporate themes">Business &amp; Corporate <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/portfolios" title="Portfolio themes">Portfolios <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/resumes-cv" title="Resume and Curriculum Vitae (CV) themes">Resumes &amp; CV <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/e-commerce" title="E-Commerce and shopping themes">E-Commerce <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/components" title="Theme components">Components <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/blogs-magazines" title="Blog and magazine themes">Blogs &amp; Magazines <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/wordpress" title="Bootstrap WordPress themes">WordPress <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/other" title="Miscellaneous themes">Other <span>&nbsp;</span></a></li>
+                                                                </ul>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                        <div id="search">
+                                                <form action="/search" method="get">
+                                                        <input class="query" name="q" type="text" placeholder="Enter search terms" size="29" value=""><input class="submit button" type="submit" value="">
+                                                </form>
+                                        </div>
+                                        <ul id="recent" class="clearfix">
+                                            <li><a href="/sku/WB0GRG7H2" style="background-image: url('//d85wutc1n854v.cloudfront.net/live/products/rv/WB0GRG7H2.png');">&nbsp;</a></li>
+                                            <li><a href="/sku/WB0P8S4X3" style="background-image: url('//d85wutc1n854v.cloudfront.net/live/products/rv/WB0P8S4X3.png');">&nbsp;</a></li>
+                                            <li><a href="/sku/WB0R67929" style="background-image: url('//d85wutc1n854v.cloudfront.net/live/products/rv/WB0R67929.png');">&nbsp;</a></li>
+                                            <li><a href="/sku/WB07H3237" style="background-image: url('//d85wutc1n854v.cloudfront.net/live/products/rv/WB07H3237.png');">&nbsp;</a></li>
+                                            <li><a href="/sku/WB0135486" style="background-image: url('//d85wutc1n854v.cloudfront.net/live/products/rv/WB0135486.png');">&nbsp;</a></li>
+                                        </ul>
+        
+                                </div>
+                        </div>
+        <div id="page_theme">
+    <div class="page-header-top">
+        <div class="container">
+                        <div class="save_box"><a class="save" href="/save/WB0B79M8D?next=/theme/genyx-responsive-admin-template-WB0B79M8D" title="Add to your Saved list"></a></div>
+            <h1><a href="/theme/genyx-responsive-admin-template-WB0B79M8D" title="Genyx - Responsive Admin Template"><span id="thing_name" itemprop="name">Genyx - Responsive Admin Template</span></a></h1>
+            <div class="share_buttons"><a class="facebook" href="#" onclick="window.open('http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwrapbootstrap.com%2Ftheme%2Fgenyx-responsive-admin-template-WB0B79M8D&t=Genyx%20-%20Responsive%20Admin%20Template','','scrollbars=yes,width=660,height=328'); return false;" title="Share this"></a><a class="twitter" href="#" onclick="window.open('https://twitter.com/intent/tweet?url=https%3A%2F%2Fwrapbootstrap.com%2Ftheme%2Fgenyx-responsive-admin-template-WB0B79M8D&text=Genyx%20-%20Responsive%20Admin%20Template','','scrollbars=yes,width=730,height=252'); return false;" title="Tweet this"></a></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="span16">
+                <div class="wrapper">
+                    <div class="product_main">
+                        <div class="product">
+                            <div class="inner">
+                                <div class="image">
+                                    <a class="screenshot" href="http://wrapbootstrap.com/preview/WB0B79M8D" title="Genyx - Responsive Admin Template" rel="nofollow" target="_blank"><img id="thing_image" itemprop="image" src="//d85wutc1n854v.cloudfront.net/live/products/600x375/WB0B79M8D.png?v=1.3" width="600" height="375" title="Genyx - Responsive Admin Template" alt="Genyx - Responsive Admin Template"></a>
+                                    <div>
+                                        <a class="btn primary live_preview" href="http://wrapbootstrap.com/preview/WB0B79M8D" rel="nofollow" target="_blank" title="Live preview"><span>Live preview</span></a>&nbsp;
+                                        <a class="btn" href="#" onclick="document.getElementById('order').submit(); return false;" title="Purchase now using PayPal" rel="nofollow">Purchase now &raquo;</a>
+                                    </div>
+                                </div>
+                            <div id="description" itemprop="description">
+                                <h2>About Genyx – Responsive Admin Template</h2>
+<p>Genyx admin is powerful template based on popular Twitter Bootstrap framework, template is great time saver for your next project.</p>
+<p>Fully responsive as well, tested form phone to full HD monitors, still if you spot some bug or want some improvement, feel free to contact me via email or my support forum.</p>
+<h2>Version 1.3 is released!</h2>
+<p>Please see changelog in the bottom for more info. </p>
+<p><img alt="" src="https://d1dlf4qvtlhqrp.cloudfront.net/slurp?i=http%3A%2F%2Fsuggeelson.com%2Fimages%2Fgenyx%2F02_features.jpg"></p>
+<h2>Full feature list</h2>
+<ul>
+<li>Fully responsive design</li>
+<li>Fixed width version</li>
+<li>Two columns layout with minimize sidebar feature.</li>
+<li>Integrated Flot charts - Lines, Circles (custom made it), donut, pie, bars, horizontal bars, stacked bars, ordered bars, auto updating chart.</li>
+<li>Jquery sparklines (bars, lines, pies)</li>
+<li>Styled form elements<ol>
+<li>Custom checkboxes and radio fields</li>
+<li>Text fields - password, readonly , tooltip , placeholder, disabled input field , predefined value, max lenghts, tags, simple text area, auto grow text area, text area with limiter, WYSIWYG Editor, masked input fields</li>
+<li>Swith style checkboxes and radios</li>
+<li>Selects - simple select, select with filter, select with search fields, multi select, dual multi select, multi select with filter.</li>
+<li>Spinners - normal spinner, with currency, with steps, Spinner with decimals and step.</li>
+<li>Pickers - color, date , time picker.</li>
+<li>Form wizzard with steps and validation, vertical style with custom icons.</li>
+<li>Validation - required field, min lenght, max lenght and etc all types.</li>
+</ol>
+</li>
+<li>Typography- Headings, links, tags, cursive text, underline text, color text - 5 predefined colors, blockquote, codeview, 14 list types with custom icon and colors, badges and labels.</li>
+<li>Grid system - Fluid grid system 12 columns</li>
+<li>Tables - static and dynamic. (Tables are responsive too).</li>
+<li>Boostrap gallery style.</li>
+<li>Calendar - simple as widget and with drop items.</li>
+<li>Icons - 1200+ font-face icons icomoon worth 59$ (any color or size).</li>
+<li>Buttons - normal buttons, small buttons, big buttons, buttons with icons, buttons with notification, buttons with status change, different states, action buttons.</li>
+<li>Notification - jGrowl like &nbsp;notification and static notification (5 types - normal, success, error, info, warrning).</li>
+<li>Tooltips and popovers.</li>
+<li>Ui dialogs and modals.</li>
+<li>Paginations and breadcrumb.</li>
+<li>Ajax loaders - more in <a href="/out?u=http%3A%2F%2Fwww.ajaxload.info%2F" target="_blank">&lt;http://www.ajaxload.info/</a>&gt;</li>
+<li>Progress bars - simple ,animated with delay, updating in every 2 seconds, 5 colors.</li>
+<li>Sliders - simple , range slider, minimum value , maximum value, circular typ (all are touch friendly).</li>
+<li>File manager with upload and only uploader.</li>
+<li>Widgets:Closed by default,Plain widget,With custom scroll,Collapsible,With icons,With loaders,,badges and labels,With progress bars,With search fields ,With sparklines.,With buttons and checkboxes,With tables , checkboxes and mass action button.</li>
+<li>Calendar widget,Todo list.,Weather widget, social stats widget, Overview widget, sidebar widgets, Spark line stats, Send Private messages widget, Recent Activity, Recent users, Wizzard with steps, Contact widget, Messages layout, Typeahead widget.</li>
+<li>Error pages - 403,404,405, 500,503, offline page.</li>
+<li>Other pages - blank page, email page, profile page, invoice page, search page, faq page.</li>
+<li>Google maps</li>
+</ul>
+<h2>Change log</h2>
+<ul>
+<li>Version 1.0 (10.3.2013)<ol>
+<li>initial release</li>
+</ol>
+</li>
+<li>Version 1.1 (10.14.2013)<ol>
+<li>Fixed - some bugs in fixed version.</li>
+<li>Fixed - some bugs in responsive view.</li>
+</ol>
+</li>
+<li>Version 1.2 (10.30.2013)<ol>
+<li>Fixed -  select full width in mobile devices.</li>
+<li>Fixed  - login form bug in mobile devices.</li>
+<li>Added - TinyMce plugin.</li>
+</ol>
+</li>
+<li>Version 1.3 (11.06.2013)<ol>
+<li>Fixed - Header dropdowns not shown correct in IE9</li>
+</ol>
+</li>
+</ul>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_info">
+                        <p><a href="/signin?next=/theme/genyx-responsive-admin-template-WB0B79M8D" title="Sign in or sign up">Sign in</a> to add this purchase to your account</p>
+                        <form id="order" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----
+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
+-----END PKCS7-----
+">
+                            <a id="buynow" class="btn primary btn-xlarge" href="#" rel="nofollow" onclick="document.getElementById('order').submit(); return false;"><span id="offer_price" itemprop="price" style="">$40</span></a>
+                            <noscript>
+                                <style>#buynow { display: none; } #page_theme #order input { display: inline; }</style>
+                                <input type="submit" class="btn primary btn-xlarge" value="$40">
+                            </noscript>
+                        </form>
+                        <div class="purchase_info">
+                            <div class="purchases">
+                                <span class="count">373</span><span class="count_label">Purchases</span>
+                            </div>
+                            <div class="license">
+                                <span class="license_label">License:</span>
+                                <a class="license_type" href="/help/licenses" target="_blank" title="Usage licenses">
+                                Multiple applications
+                                </a>
+                            </div>
+                        </div>
+                        <div class="addons">
+                            <p>Licenses: <span><a href="/help/licenses" target="_blank" title="Usage licenses">Details &raquo;</a></span></p>
+                        <div class="addon container">
+                            <a href="/theme/genyx-responsive-admin-template-WB0B79M8D">Single application <span>$12</span></a>
+                        </div>
+                        <div class="addon-selected sunken container">
+                            Multiple applications <span><b id="ma-star" style="display: none; color: #FFD700;">&#x2739;</b>&nbsp;$40</span>
+                        </div>
+                        <div class="addon container">
+                            <a href="/theme/genyx-responsive-admin-template-WB0B79M8D?l=e">Extended <span>$500</span></a>
+                        </div>
+                        </div>
+                        <div class="info_wrapper">
+                            <p class="sidebar_title">Item attributes</p>
+                            <table class="attributes zebra-striped">
+                                <tbody>
+                                    <tr class="first"><td class="key"><strong>Version:</strong></td><td class="value"><span id="creativework_version" itemprop="version">1.3</span></td></tr>
+                                    <tr>
+                                        <td class="key"><strong>Bootstrap:</strong></td>
+                                        <td class="value">Compatible with 3.0.x</td>
+                                    </tr>
+                                    <tr><td class="key"><strong>Columns:</strong></td><td class="value">2</td></tr>
+                                    <tr>
+                                        <td class="key"><strong>Layouts:</strong></td>
+                                        <td class="value">
+                                            <ul>
+                                            <li>Responsive</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key"><strong>Browsers:</strong></td>
+                                        <td class="value">
+                                            <ul>
+                                            <li>Internet Explorer 8</li>
+                                            <li>Internet Explorer 9</li>
+                                            <li>Latest Chrome</li>
+                                            <li>Latest Firefox</li>
+                                            <li>Latest Opera</li>
+                                            <li>Latest Safari</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr><td class="key"><strong>Uses LESS:</strong></td><td class="value">No</td></tr>
+                                    <tr>
+                                        <td class="key"><strong>Categories:</strong></td>
+                                        <td class="value">
+                                            <ul>
+                                            <li><a href="/themes/admin" title="Admin &amp; Dashboards"><span id="offer_category" itemprop="category">Admin &amp; Dashboards</span></a></li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key"><strong>Tags:</strong></td>
+                                        <td class="value"><span id="creativework_keywords" itemprop="keywords"><a href="/tag/admin" title="Themes tagged with admin">admin</a>, <a href="/tag/admin-template" title="Themes tagged with admin template">admin template</a>, <a href="/tag/admin-theme" title="Themes tagged with admin theme">admin theme</a>, <a href="/tag/bootstrap-3" title="Themes tagged with bootstrap 3">bootstrap 3</a>, <a href="/tag/cms" title="Themes tagged with cms">cms</a>, <a href="/tag/responsive" title="Themes tagged with responsive">responsive</a>, <a href="/tag/responsive-admin" title="Themes tagged with responsive admin">responsive admin</a></span></td>
+                                    </tr>
+                                    <tr><td class="key"><strong>Item#:</strong></td><td class="value"><span id="offer_sku" itemprop="sku">WB0B79M8D</span></td></tr>
+                                    <tr><td class="key"><strong>Released:</strong></td><td class="value">5 months ago</td></tr>
+                                    <tr><td class="key"><strong>Updated:</strong></td><td class="value">4 months ago</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="exclusive"><img src="//d85wutc1n854v.cloudfront.net/live/imgs/wb_exclusive.png" width="205" height="29" title="Sold exclusively on WrapBootstrap" alt="Sold exclusively on WrapBootstrap"></div>
+                        <div class="info_wrapper">
+                            <p class="sidebar_title">Item author</p>
+                            <div class="seller">
+                                <a href="/user/jorolino" title="jorolino"><img src="/static/users/pictures/jorolino.png" width="40" height="40" alt="jorolino" title="jorolino"></a>
+                                <div class="info">
+                                    <p class="user"><a href="/user/jorolino" title="jorolino"><span id="product_manufacturer" itemprop="manufacturer">jorolino</span></a></p>
+                                    <p class="days">Signed up 1 year ago</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="item_cs_header">Need a front-end theme?</p>
+                        <div class="item_cs"><a href="/theme/mira-coming-soon-landing-page-WB03933J3" title="Mira - Coming Soon Landing Page"><img src="//d85wutc1n854v.cloudfront.net/live/products/icons/WB03933J3.jpg?v=1.0" width="252" height="158"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(){
+        $('.license').animate({ backgroundColor: "#ffffe0" }, "fast").animate({ backgroundColor: "#ffffff" }, "slow");
+    });
+    function bitpay_invoice(email){
+        if ($('#bitpay_frame').is(':visible') == false){
+            $('#bitpay_frame_loading').show();
+            $.ajax({url: '/purchase/invoice-bitpay/WB0B79M8D/m', data: {buyer_email: email}, dataType: 'text', type: 'POST', timeout: 10000})
+                .done(function(data, textStatus, jqXHR){
+                    $('#bitpay_frame_loading').hide();
+                    if (data.length > 0){
+                        $('#bitpay_frame').show();
+                        $('#bitpay_frame_inner').html('<iframe src="' + data + '" scrolling="no" allowtransparency="true" frameborder="0" style="width:500px;height:150px;overflow:hidden;border:none;"></iframe>');
+                    } else {
+                        $('#bitpay_frame_error').show();
+                    }
+                })
+                .fail(function(){
+                    $('#bitpay_frame_loading').hide();
+                    $('#bitpay_frame_error').show();
+                })
+                .always(function(){
+                    $('#bitpay_frame_loading').hide();
+                });
+        }
+    };
+    function bitpay_payment(user, email, start){
+        $('#bitpay_modal').bind('show', function(){
+            $('#bitpay_frame_error').hide();
+            $('#bitpay_frame_loading').hide();
+            
+        });
+        $('#bitpay_modal').bind('shown', function(){
+            bitpay_invoice(email);
+        });
+        $('#bitpay_modal').bind('hidden', function(){
+            if ($('#bitpay_frame').is(':visible') == false){
+                $('#bitpay_frame_loading').hide();
+                $('#bitpay_frame_error').hide();
+            }
+        });
+        if (start == true){
+            bitpay_invoice(email);
+        }
+    };
+    $(document).ready(function(){
+    $('#bitpay_buyer_info').show();
+    $('#bitpay_continue').click(function(){
+        var email = $('#bitpay_email').val();
+        if (email.length == 0 || email.indexOf('@') == -1) { return false; }
+        $('#bitpay_email').hide();
+        $('#bitpay_continue').hide();
+        $('#bitpay_buyer_info p').hide();
+        $('#bitpay_frame_buyer').text(email);
+        $('#bitpay_buyer_info').css({'padding-bottom': '17px', 'padding-top': '0px', 'margin-bottom': '10px', 'border-bottom': '1px solid #eee'});
+        $('#bitpay_frame_loading').css({'margin-top': '40px'});
+        $('#bitpay_frame_error').css({'margin-top': '40px'});
+        bitpay_payment(false, email, true);
+    });
+    });
+</script>
+
+                            <div style="padding-top: 35px; background: #eee url('//d85wutc1n854v.cloudfront.net/live/imgs/darkgrain.png');">
+                                    <div class="container">
+                                            <div class="social_stuff">
+                                                    <div class="widget">
+                                                            <div class="twitter">
+                                                                    <div class="stat"><a href="http://twitter.com/wrapbootstrap" title="Follow us on Twitter!" target="_blank" rel="nofollow"><span class="count">8.5k</span><span class="desc">Followers</span></a></div>
+                                                            </div>
+                                                            <div class="facebook">
+                                                                    <div class="stat"><a href="http://www.facebook.com/wrapbootstrap" title="Follow us on Facebook!" target="_blank" rel="nofollow"><span class="count">7.8k</span><span class="desc">Followers</span></a></div>
+                                                            </div>
+                                                            <div class="rss">
+                                                                    <div class="stat"><a href="http://feeds.feedburner.com/wrapbootstrap" title="Subscribe to our RSS feed!" target="_blank" rel="nofollow"><span class="count">334</span><span class="desc">Subscribers</span></a></div>
+                                                            </div>
+                                                            <div class="email">
+                                                                    <div class="stat"><a href="http://eepurl.com/iVhpj" title="Subscribe to our newsletter!" target="_blank" rel="nofollow"><span class="count">25.1k</span><span class="desc">Subscribers</span></a></div>
+                                                            </div>
+                                                    </div>
+                                                    <div class="newsletter">
+                                                            <p><strong>See new themes weekly:</strong></p>
+                                                            <form action="https://wrapbootstrap.us4.list-manage.com/subscribe/post?u=a6573691f554e1ed4eda8c965&amp;id=a9f54c6355" method="post" target="_blank">
+                                                                    <input type="text" name="EMAIL" class="span5" placeholder="Email address">&nbsp;<input class="btn primary" type="submit" name="subscribe" value="Subscribe">
+                                                            </form>
+                                                    </div>
+                                            </div>
+                                    </div>
+                            </div>
+                            <div id="about_bootstrap">
+                                    <div class="container">
+                                            <section>
+                                                    <div class="row">
+                                                            <div class="span-one-third">
+                                                                    <h3>About Bootstrap</h3>
+                                                                    <p><a href="http://getbootstrap.com/" target="_blank" title="Bootstrap">Bootstrap</a> is designed to help people of all skill levels &ndash; designer or developer, huge nerd or early beginner. Use it as a complete kit or use it to start something more complex.</p>
+                                                                    <p>Unlike other front-end toolkits, Bootstrap was designed first and foremost as a styleguide to document not only its features, but best practices and living, coded examples.</p>
+                                                                    <p>Built to support new HTML5 elements and syntax with progressively enhanced components.</p>
+                                                            </div>
+                                                            <div class="span-one-third">
+                                                                    <h3>Browser support</h3>
+                                                                    <p>Bootstrap is tested and supported in major modern browsers like Chrome, Firefox, and Internet Explorer.</p>
+                                                                    <img src="//d85wutc1n854v.cloudfront.net/live/imgs/browser_logos.png" width="280" height="52" alt="Tested and supported in Chrome, Safari, Firefox, Internet Explorer, and Opera." title="Tested and supported in Chrome, Safari, Firefox, Internet Explorer, and Opera.">
+                                                                    <ul>
+                                                                            <li>Latest Chrome</li>
+                                                                            <li>Latest Safari</li>
+                                                                            <li>Latest Firefox</li>
+                                                                            <li>Internet Explorer 8/9/10/11</li>
+                                                                            <li>Latest Opera</li>
+                                                                    </ul>
+                                                            </div>
+                                                            <div class="span-one-third">
+                                                                    <h3>Features &amp; includes</h3>
+                                                                    <p>Bootstrap provides an unparalleled array of features and reusable components that let you hit the ground running:</p>
+                                                                    <ul>
+                                                                            <li>Responsive <a href="http://getbootstrap.com/css/#grid" title="Bootstrap documentation, grid system" target="_blank">12-column grid</a></li>
+                                                                            <li>12 custom, modular <a href="http://getbootstrap.com/javascript/" target="_blank" title="Bootstrap documentation, JavaScript">jQuery plugins</a></li>
+                                                                            <li><a href="http://getbootstrap.com/css/" title="Bootstrap documentation, Base CSS" target="_blank">CSS styles</a> for forms, navigation &amp; more</li>
+                                                                            <li>Dozens of reusable <a href="http://getbootstrap.com/components/" target="_blank" title="Bootstrap documentation, Components">components</a></li>
+                                                                            <li>Components are scaled according to a range of resolutions and devices</li>
+                                                                            <li>Built with <a href="http://lesscss.org/" target="_blank" title="LESS - The dynamic stylesheet language">LESS</a> and <a href="http://sass-lang.com/" target="_blank" title="Sass - Syntactically Awesome Style Sheets">Sass</a> (CSS included)</li>
+                                                                            <li>Complete styleguide documentation</li>
+                                                                    </ul>
+                                                            </div>
+                                                    </div>
+                                            </section>
+                                    </div>
+                            </div>
+                        <div class="push"></div>
+                </div>
+                <div id="footer">
+                        <div class="container">
+                                <footer>
+                                        <p>
+                                                <a href="/support" title="Buyer and seller support"><b>Support</b></a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;<a href="http://support.wrapbootstrap.com/" title="Knowledge base" target="_none"><b>Knowledge base</b></a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;<a href="/affiliates" title="Affiliates">Affiliates</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;<a href="/privacy" title="Privacy policy">Privacy</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;<a href="/terms" title="Terms of use">Terms</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;<a href="/about" title="About us">About</a> <span class="pull-right">&copy; 2014 <a href="http://wrapmarket.com/" title="WrapMarket LLC" target="_blank">WrapMarket LLC</a></span>
+                                                    <span class="pull-right" style="position: relative; top: -2px;"><a href="https://twitter.com/wrapbootstrap" class="twitter-follow-button" data-width="80px" data-show-count="false" data-show-screen-name="false">Follow @wrapbootstrap</a></span>
+                                        </p>
+                                </footer>
+                        </div>
+                </div>
+                <div id="subscribe_dialog">
+                        <div class="shell">
+                                <div class="topbar"><a class="close" href="#">Close</a></div>
+                                <div class="inner"></div>
+                        </div>
+                </div>
+                <div id="mask"></div>
+                <script>$(document).ready(function(){ $(".alert-message").alert(); $("#bsw").twipsy(); });</script>
+                    <!-- twitter widget --><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                <script type="text/javascript">
+                        adroll_adv_id = "7ZLH3TJ7RFHP5IXPNREKUT";
+                        adroll_pix_id = "FXS6CQLPC5G7ZN6YQH3GWR";
+                        (function () {
+                                var oldonload = window.onload;
+                                window.onload = function(){
+                                __adroll_loaded=true;
+                                var scr = document.createElement("script");
+                                var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+                                scr.setAttribute('async', 'true');
+                                scr.type = "text/javascript";
+                                scr.src = host + "/j/roundtrip.js";
+                                ((document.getElementsByTagName('head') || [null])[0] ||
+                                document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+                                if(oldonload){oldonload()}};
+                        }());
+                </script>
+        </body>
+</html>

@@ -1,7 +1,7 @@
 from scrapy.selector import Selector
 from finance.spiders import Nini
 
-from ..items import ChaseBankLoanItem as CBLI
+from ..items import LoanItem
 
 
 class ChaseBankLoanSpider(Nini):
@@ -11,18 +11,23 @@ class ChaseBankLoanSpider(Nini):
         "http://www.chasebankkenya.co.ke/products/loans-1",
     ]
 
+    institution_name = 'Chase'
 
     def parse(self, response):
         sel = Selector(response)
         base = sel.xpath('//*[@id="content-content"]/div/div/table/tbody/tr')
         loan_td = base.xpath("td")
 
-        item = CBLI()
-        item['loans'] = [
-            {"name": i.xpath('div[1]/span/a/text()').extract()[0], "desc": i.xpath('div[2]/span/text()').extract(),
-             "details": i.xpath('div[3]/span/a/@href').extract()} for i in loan_td]
+        items = []
 
-        return item
+        for i in loan_td:
+            item = LoanItem()
+            item['loan_name'] = i.xpath('div[1]/span/a/text()').extract()
+            item['desc'] = i.xpath('div[2]/span/text()').extract()
+            item['link'] = i.xpath('div[3]/span/a/@href').extract()
+            items.append(item)
+
+        return items
 
 
 

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en-us">
+        <head>
+                <meta charset="utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+                    <title>Skyline - Magazine Style Template | Blogs &amp; Magazines | WrapBootstrap - Bootstrap Themes & Templates</title>
+                    <meta name="description" content="A clean, classic, magazine style skin. Skyline has a strong focus on images or other media to help give your">
+                    <link rel="canonical" href="https://wrapbootstrap.com/theme/skyline-magazine-style-template-WB00C5326">
+                <meta name="viewport" content="width=1024">
+                    <link rel="alternate" type="application/rss+xml" title="WrapBootstrap" href="http://feeds.feedburner.com/wrapbootstrap">
+                <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+                <link rel="stylesheet" type="text/css" media="screen" href="//d85wutc1n854v.cloudfront.net/live/css/screen.css?buster-131228-2">
+                <script src="//cdn.optimizely.com/js/233905874.js"></script>
+                <script src="//d85wutc1n854v.cloudfront.net/live/js/behavior.js?buster-131228-1"></script>
+                <script>$(function(){ $("img.lazy").jail({effect: "fadeIn", speed: 500, placeholder: "//d85wutc1n854v.cloudfront.net/live/imgs/placeholder.gif"}); });</script>
+                <noscript><style>.lazy_product_image { display: none; }</style></noscript>
+                <script type="text/javascript">
+                        var _gaq = _gaq || [];
+                        _gaq.push(['_setAccount', 'UA-28871117-1']);
+                        _gaq.push(['_setDomainName', 'wrapbootstrap.com']);
+                        _gaq.push(['_trackPageview']);
+                        (function() {
+                                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                        })();
+                </script>
+                <link rel="shortcut icon" href="//d85wutc1n854v.cloudfront.net/live/imgs/favicon.ico">
+                <link rel="apple-touch-icon" sizes="129x129" href="//d85wutc1n854v.cloudfront.net/live/imgs/apple-touch-icon.png"> 
+        </head>
+        <body>
+                <div id="main">
+                            <div id="raffle-promo">
+                                    <div class="container">
+                                            <div class="widget"><a href="https://twitter.com/share" class="twitter-share-button" data-url="https://wrapbootstrap.com/" data-text="WrapBootstrap - Bootstrap Themes & Templates" data-via="wrapbootstrap" data-size="normal">Tweet</a></div>
+                                            <a class="close" href="#" onclick="$('#raffle-promo').hide(); $.cookie('raffle', '0', {expires: 30}); _gaq.push(['_trackEvent', 'raffle', 'close']); return false;">close</a>
+                                    </div>
+                            </div>
+                        <div class="topbar">
+                                <div class="fill">
+                                        <div class="container">
+                                                <a class="brand" href="/" title="WrapBootstrap - Bootstrap Themes & Templates"><img src="//d85wutc1n854v.cloudfront.net/live/imgs/logo.png" width="187" height="28" alt="WrapBootstrap" title="WrapBootstrap - Bootstrap Themes & Templates"></a>
+                                                <ul class="nav">
+                                                            <li class="active"><a href="/themes" title="Bootstrap themes and templates">Themes</a></li>
+                                                            <li><a href="/logos" title="Logo templates">Logos</a></li>
+                                                                <li><a href="/sell" title="Sell your Bootstrap themes and templates">Selling</a></li>
+                                                            <li><a href="/bounties" title="Bonuses for uploading the most wanted themes">Bounties</a></li>
+                                                        <li><a id="bsw" href="http://bootswatch.com/" data-placement="right" rel="twipsy" target="_blank" title="Free themes for Bootstrap" onclick="_gaq.push(['_trackEvent', 'click', 'outbound', 'bsw']);">Bootswatch <i class="icon-share-alt icon-white"></i></a></li>
+                                                </ul>
+                                                    <ul class="nav secondary-nav">
+                                                                <li><a href="/signin" style="padding-left: 17px; background: transparent url('//d85wutc1n854v.cloudfront.net/live/imgs/lock_icon.png') no-repeat 0px center;">Sign in</a></li>
+                                                            <li><a href="/signup">Sign up</a></li>
+                                                    </ul>
+                                        </div>
+                                </div>
+                        </div>
+                        <div id="menu">
+                                <div class="container">
+                                        <div id="categories">
+                                                <div class="category_button"><a href="#" title="Select a category">Categories</a></div>
+                                                <div class="dropdown_container">
+                                                        <div class="categories">
+                                                                <ul>
+                                                                        <li><a href="/themes/admin" title="Admin, dashboard, and other backend themes">Admin &amp; Dashboards <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/landing-pages" title="Landing page themes">Landing Pages <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/business" title="Business and corporate themes">Business &amp; Corporate <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/portfolios" title="Portfolio themes">Portfolios <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/resumes-cv" title="Resume and Curriculum Vitae (CV) themes">Resumes &amp; CV <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/e-commerce" title="E-Commerce and shopping themes">E-Commerce <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/components" title="Theme components">Components <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/blogs-magazines" title="Blog and magazine themes">Blogs &amp; Magazines <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/wordpress" title="Bootstrap WordPress themes">WordPress <span>&nbsp;</span></a></li>
+                                                                        <li><a href="/themes/other" title="Miscellaneous themes">Other <span>&nbsp;</span></a></li>
+                                                                </ul>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                        <div id="search">
+                                                <form action="/search" method="get">
+                                                        <input class="query" name="q" type="text" placeholder="Enter search terms" size="29" value=""><input class="submit button" type="submit" value="">
+                                                </form>
+                                        </div>
+                                        <ul id="recent" class="clearfix">
+                                            <li><a href="/sku/WB0N401MS" style="background-image: url('//d85wutc1n854v.cloudfront.net/live/products/rv/WB0N401MS.png');">&nbsp;</a></li>
+                                            <li><a href="/sku/WB001HJ32" style="background-image: url('//d85wutc1n854v.cloudfront.net/live/products/rv/WB001HJ32.png');">&nbsp;</a></li>
+                                            <li><a href="/sku/WB03KT184" style="background-image: url('//d85wutc1n854v.cloudfront.net/live/products/rv/WB03KT184.png');">&nbsp;</a></li>
+                                            <li><a href="/sku/WB003U894" style="background-image: url('//d85wutc1n854v.cloudfront.net/live/products/rv/WB003U894.png');">&nbsp;</a></li>
+                                            <li><a href="/sku/WB0J9603D" style="background-image: url('//d85wutc1n854v.cloudfront.net/live/products/rv/WB0J9603D.png');">&nbsp;</a></li>
+                                        </ul>
+        
+                                </div>
+                        </div>
+        <div id="page_theme">
+    <div class="page-header-top">
+        <div class="container">
+                        <div class="save_box"><a class="save" href="/save/WB00C5326?next=/theme/skyline-magazine-style-template-WB00C5326" title="Add to your Saved list"></a></div>
+            <h1><a href="/theme/skyline-magazine-style-template-WB00C5326" title="Skyline - Magazine Style Template"><span id="thing_name" itemprop="name">Skyline - Magazine Style Template</span></a></h1>
+            <div class="share_buttons"><a class="facebook" href="#" onclick="window.open('http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwrapbootstrap.com%2Ftheme%2Fskyline-magazine-style-template-WB00C5326&t=Skyline%20-%20Magazine%20Style%20Template','','scrollbars=yes,width=660,height=328'); return false;" title="Share this"></a><a class="twitter" href="#" onclick="window.open('https://twitter.com/intent/tweet?url=https%3A%2F%2Fwrapbootstrap.com%2Ftheme%2Fskyline-magazine-style-template-WB00C5326&text=Skyline%20-%20Magazine%20Style%20Template','','scrollbars=yes,width=730,height=252'); return false;" title="Tweet this"></a></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="span16">
+                <div class="wrapper">
+                    <div class="product_main">
+                        <div class="product">
+                            <div class="inner">
+                                <div class="image">
+                                    <a class="screenshot" href="http://wrapbootstrap.com/preview/WB00C5326" title="Skyline - Magazine Style Template" rel="nofollow" target="_blank"><img id="thing_image" itemprop="image" src="//d85wutc1n854v.cloudfront.net/live/products/600x375/WB00C5326.png?v=1.0" width="600" height="375" title="Skyline - Magazine Style Template" alt="Skyline - Magazine Style Template"></a>
+                                    <div>
+                                        <a class="btn primary live_preview" href="http://wrapbootstrap.com/preview/WB00C5326" rel="nofollow" target="_blank" title="Live preview"><span>Live preview</span></a>&nbsp;
+                                        <a class="btn" href="#" onclick="document.getElementById('order').submit(); return false;" title="Purchase now using PayPal" rel="nofollow">Purchase now &raquo;</a>
+                                    </div>
+                                </div>
+                            <div id="description" itemprop="description">
+                                <p>A clean, classic, magazine style skin. Skyline has a strong focus on images or other media to help give your pages impact.</p>
+<p>It currently features:</p>
+<ol>
+<li>Two colour schemes (more coming soon!)</li>
+<li>A Three column, customisable, "mosaic" home page layout</li>
+<li>A Two column post/article page (more coming soon)</li>
+</ol>
+<p>Many more features are in the pipeline to expand on this beautiful layout.</p>
+                            </div>
+                            <h2 id="seller_items_header">More by <a href="/user/errantx">errantx</a></h2>
+                            <ul id="seller_items">
+                            <li><a href="/theme/productive-WB0853605" title="Productive"><img src="//d85wutc1n854v.cloudfront.net/live/products/icons/WB0853605.jpg?v=1.0" width="136" height="85"></a></li>
+                            <li><a href="/theme/newspaper-WB0N401MS" title="Newspaper"><img src="//d85wutc1n854v.cloudfront.net/live/products/icons/WB0N401MS.jpg?v=1.0" width="136" height="85"></a></li>
+                            <li>&nbsp;</li>
+                            <li class="last">&nbsp;</li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_info">
+                        <p><a href="/signin?next=/theme/skyline-magazine-style-template-WB00C5326" title="Sign in or sign up">Sign in</a> to add this purchase to your account</p>
+                        <form id="order" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----
+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
+-----END PKCS7-----
+">
+                            <a id="buynow" class="btn primary btn-xlarge" href="#" rel="nofollow" onclick="document.getElementById('order').submit(); return false;"><span id="offer_price" itemprop="price" style="">$15</span></a>
+                            <noscript>
+                                <style>#buynow { display: none; } #page_theme #order input { display: inline; }</style>
+                                <input type="submit" class="btn primary btn-xlarge" value="$15">
+                            </noscript>
+                        </form>
+                        <div class="coffee-pitch"><span>That's about 6 cups of coffee</span></div>
+                        <div class="purchase_info">
+                            <div class="purchases">
+                                <span class="count">7</span><span class="count_label">Purchases</span>
+                            </div>
+                            <div class="license">
+                                <span class="license_label">License:</span>
+                                <a class="license_type" href="/help/licenses" target="_blank" title="Usage licenses">
+                                Single application
+                                </a>
+                            </div>
+                        </div>
+                        <div class="addons">
+                            <p>Licenses: <span><a href="/help/licenses" target="_blank" title="Usage licenses">Details &raquo;</a></span></p>
+                        <div class="addon-selected sunken container">
+                            Single application <span>$15</span>
+                        </div>
+                        <div class="addon container">
+                            <a href="/theme/skyline-magazine-style-template-WB00C5326?l=m">Multiple applications <span><b id="ma-star" style="display: none; color: #FFD700;">&#x2739;</b> $55</span></a>
+                        </div>
+                        <div class="addon container">
+                            <a href="/theme/skyline-magazine-style-template-WB00C5326?l=e">Extended <span>$150</span></a>
+                        </div>
+                        </div>
+                        <div class="info_wrapper">
+                            <p class="sidebar_title">Item attributes</p>
+                            <table class="attributes zebra-striped">
+                                <tbody>
+                                    <tr class="first"><td class="key"><strong>Version:</strong></td><td class="value"><span id="creativework_version" itemprop="version">1.0</span></td></tr>
+                                    <tr>
+                                        <td class="key"><strong>Bootstrap:</strong></td>
+                                        <td class="value">Compatible with 2.0.x</td>
+                                    </tr>
+                                    <tr><td class="key"><strong>Columns:</strong></td><td class="value">3</td></tr>
+                                    <tr>
+                                        <td class="key"><strong>Layouts:</strong></td>
+                                        <td class="value">
+                                            <ul>
+                                            <li>Fixed-width</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key"><strong>Browsers:</strong></td>
+                                        <td class="value">
+                                            <ul>
+                                            <li>Internet Explorer 8</li>
+                                            <li>Internet Explorer 9</li>
+                                            <li>Latest Chrome</li>
+                                            <li>Latest Firefox</li>
+                                            <li>Latest Opera</li>
+                                            <li>Latest Safari</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr><td class="key"><strong>Uses LESS:</strong></td><td class="value">No</td></tr>
+                                    <tr>
+                                        <td class="key"><strong>Categories:</strong></td>
+                                        <td class="value">
+                                            <ul>
+                                            <li><a href="/themes/blogs-magazines" title="Blogs &amp; Magazines"><span id="offer_category" itemprop="category">Blogs &amp; Magazines</span></a></li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="key"><strong>Tags:</strong></td>
+                                        <td class="value"><span id="creativework_keywords" itemprop="keywords"><a href="/tag/blog" title="Themes tagged with blog">blog</a>, <a href="/tag/clean" title="Themes tagged with clean">clean</a>, <a href="/tag/magazine" title="Themes tagged with magazine">magazine</a>, <a href="/tag/news" title="Themes tagged with news">news</a></span></td>
+                                    </tr>
+                                    <tr><td class="key"><strong>Item#:</strong></td><td class="value"><span id="offer_sku" itemprop="sku">WB00C5326</span></td></tr>
+                                    <tr><td class="key"><strong>Released:</strong></td><td class="value">2 years ago</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="exclusive"><img src="//d85wutc1n854v.cloudfront.net/live/imgs/wb_exclusive.png" width="205" height="29" title="Sold exclusively on WrapBootstrap" alt="Sold exclusively on WrapBootstrap"></div>
+                        <div class="info_wrapper">
+                            <p class="sidebar_title">Item author</p>
+                            <div class="seller">
+                                <a href="/user/errantx" title="errantx"><img src="/static/users/pictures/errantx.png" width="40" height="40" alt="errantx" title="errantx"></a>
+                                <div class="info">
+                                    <p class="user"><a href="/user/errantx" title="errantx"><span id="product_manufacturer" itemprop="manufacturer">errantx</span></a></p>
+                                    <p class="days">Signed up 2 years ago</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="item_cs_header">Need an admin theme?</p>
+                        <div class="item_cs"><a href="/theme/metro-admin-theme-metro-king-WB0GRG7H2" title="Metro Admin Theme - Metro King"><img src="//d85wutc1n854v.cloudfront.net/live/products/icons/WB0GRG7H2.jpg?v=2.2.3" width="252" height="158"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function bitpay_invoice(email){
+        if ($('#bitpay_frame').is(':visible') == false){
+            $('#bitpay_frame_loading').show();
+            $.ajax({url: '/purchase/invoice-bitpay/WB00C5326/s', data: {buyer_email: email}, dataType: 'text', type: 'POST', timeout: 10000})
+                .done(function(data, textStatus, jqXHR){
+                    $('#bitpay_frame_loading').hide();
+                    if (data.length > 0){
+                        $('#bitpay_frame').show();
+                        $('#bitpay_frame_inner').html('<iframe src="' + data + '" scrolling="no" allowtransparency="true" frameborder="0" style="width:500px;height:150px;overflow:hidden;border:none;"></iframe>');
+                    } else {
+                        $('#bitpay_frame_error').show();
+                    }
+                })
+                .fail(function(){
+                    $('#bitpay_frame_loading').hide();
+                    $('#bitpay_frame_error').show();
+                })
+                .always(function(){
+                    $('#bitpay_frame_loading').hide();
+                });
+        }
+    };
+    function bitpay_payment(user, email, start){
+        $('#bitpay_modal').bind('show', function(){
+            $('#bitpay_frame_error').hide();
+            $('#bitpay_frame_loading').hide();
+            
+        });
+        $('#bitpay_modal').bind('shown', function(){
+            bitpay_invoice(email);
+        });
+        $('#bitpay_modal').bind('hidden', function(){
+            if ($('#bitpay_frame').is(':visible') == false){
+                $('#bitpay_frame_loading').hide();
+                $('#bitpay_frame_error').hide();
+            }
+        });
+        if (start == true){
+            bitpay_invoice(email);
+        }
+    };
+    $(document).ready(function(){
+    $('#bitpay_buyer_info').show();
+    $('#bitpay_continue').click(function(){
+        var email = $('#bitpay_email').val();
+        if (email.length == 0 || email.indexOf('@') == -1) { return false; }
+        $('#bitpay_email').hide();
+        $('#bitpay_continue').hide();
+        $('#bitpay_buyer_info p').hide();
+        $('#bitpay_frame_buyer').text(email);
+        $('#bitpay_buyer_info').css({'padding-bottom': '17px', 'padding-top': '0px', 'margin-bottom': '10px', 'border-bottom': '1px solid #eee'});
+        $('#bitpay_frame_loading').css({'margin-top': '40px'});
+        $('#bitpay_frame_error').css({'margin-top': '40px'});
+        bitpay_payment(false, email, true);
+    });
+    });
+</script>
+
+                            <div style="padding-top: 35px; background: #eee url('//d85wutc1n854v.cloudfront.net/live/imgs/darkgrain.png');">
+                                    <div class="container">
+                                            <div class="social_stuff">
+                                                    <div class="widget">
+                                                            <div class="twitter">
+                                                                    <div class="stat"><a href="http://twitter.com/wrapbootstrap" title="Follow us on Twitter!" target="_blank" rel="nofollow"><span class="count">8.5k</span><span class="desc">Followers</span></a></div>
+                                                            </div>
+                                                            <div class="facebook">
+                                                                    <div class="stat"><a href="http://www.facebook.com/wrapbootstrap" title="Follow us on Facebook!" target="_blank" rel="nofollow"><span class="count">7.8k</span><span class="desc">Followers</span></a></div>
+                                                            </div>
+                                                            <div class="rss">
+                                                                    <div class="stat"><a href="http://feeds.feedburner.com/wrapbootstrap" title="Subscribe to our RSS feed!" target="_blank" rel="nofollow"><span class="count">334</span><span class="desc">Subscribers</span></a></div>
+                                                            </div>
+                                                            <div class="email">
+                                                                    <div class="stat"><a href="http://eepurl.com/iVhpj" title="Subscribe to our newsletter!" target="_blank" rel="nofollow"><span class="count">25.1k</span><span class="desc">Subscribers</span></a></div>
+                                                            </div>
+                                                    </div>
+                                                    <div class="newsletter">
+                                                            <p><strong>See new themes weekly:</strong></p>
+                                                            <form action="https://wrapbootstrap.us4.list-manage.com/subscribe/post?u=a6573691f554e1ed4eda8c965&amp;id=a9f54c6355" method="post" target="_blank">
+                                                                    <input type="text" name="EMAIL" class="span5" placeholder="Email address">&nbsp;<input class="btn primary" type="submit" name="subscribe" value="Subscribe">
+                                                            </form>
+                                                    </div>
+                                            </div>
+                                    </div>
+                            </div>
+                            <div id="about_bootstrap">
+                                    <div class="container">
+                                            <section>
+                                                    <div class="row">
+                                                            <div class="span-one-third">
+                                                                    <h3>About Bootstrap</h3>
+                                                                    <p><a href="http://getbootstrap.com/" target="_blank" title="Bootstrap">Bootstrap</a> is designed to help people of all skill levels &ndash; designer or developer, huge nerd or early beginner. Use it as a complete kit or use it to start something more complex.</p>
+                                                                    <p>Unlike other front-end toolkits, Bootstrap was designed first and foremost as a styleguide to document not only its features, but best practices and living, coded examples.</p>
+                                                                    <p>Built to support new HTML5 elements and syntax with progressively enhanced components.</p>
+                                                            </div>
+                                                            <div class="span-one-third">
+                                                                    <h3>Browser support</h3>
+                                                                    <p>Bootstrap is tested and supported in major modern browsers like Chrome, Firefox, and Internet Explorer.</p>
+                                                                    <img src="//d85wutc1n854v.cloudfront.net/live/imgs/browser_logos.png" width="280" height="52" alt="Tested and supported in Chrome, Safari, Firefox, Internet Explorer, and Opera." title="Tested and supported in Chrome, Safari, Firefox, Internet Explorer, and Opera.">
+                                                                    <ul>
+                                                                            <li>Latest Chrome</li>
+                                                                            <li>Latest Safari</li>
+                                                                            <li>Latest Firefox</li>
+                                                                            <li>Internet Explorer 8/9/10/11</li>
+                                                                            <li>Latest Opera</li>
+                                                                    </ul>
+                                                            </div>
+                                                            <div class="span-one-third">
+                                                                    <h3>Features &amp; includes</h3>
+                                                                    <p>Bootstrap provides an unparalleled array of features and reusable components that let you hit the ground running:</p>
+                                                                    <ul>
+                                                                            <li>Responsive <a href="http://getbootstrap.com/css/#grid" title="Bootstrap documentation, grid system" target="_blank">12-column grid</a></li>
+                                                                            <li>12 custom, modular <a href="http://getbootstrap.com/javascript/" target="_blank" title="Bootstrap documentation, JavaScript">jQuery plugins</a></li>
+                                                                            <li><a href="http://getbootstrap.com/css/" title="Bootstrap documentation, Base CSS" target="_blank">CSS styles</a> for forms, navigation &amp; more</li>
+                                                                            <li>Dozens of reusable <a href="http://getbootstrap.com/components/" target="_blank" title="Bootstrap documentation, Components">components</a></li>
+                                                                            <li>Components are scaled according to a range of resolutions and devices</li>
+                                                                            <li>Built with <a href="http://lesscss.org/" target="_blank" title="LESS - The dynamic stylesheet language">LESS</a> and <a href="http://sass-lang.com/" target="_blank" title="Sass - Syntactically Awesome Style Sheets">Sass</a> (CSS included)</li>
+                                                                            <li>Complete styleguide documentation</li>
+                                                                    </ul>
+                                                            </div>
+                                                    </div>
+                                            </section>
+                                    </div>
+                            </div>
+                        <div class="push"></div>
+                </div>
+                <div id="footer">
+                        <div class="container">
+                                <footer>
+                                        <p>
+                                                <a href="/support" title="Buyer and seller support"><b>Support</b></a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;<a href="http://support.wrapbootstrap.com/" title="Knowledge base" target="_none"><b>Knowledge base</b></a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;<a href="/affiliates" title="Affiliates">Affiliates</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;<a href="/privacy" title="Privacy policy">Privacy</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;<a href="/terms" title="Terms of use">Terms</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;<a href="/about" title="About us">About</a> <span class="pull-right">&copy; 2014 <a href="http://wrapmarket.com/" title="WrapMarket LLC" target="_blank">WrapMarket LLC</a></span>
+                                                    <span class="pull-right" style="position: relative; top: -2px;"><a href="https://twitter.com/wrapbootstrap" class="twitter-follow-button" data-width="80px" data-show-count="false" data-show-screen-name="false">Follow @wrapbootstrap</a></span>
+                                        </p>
+                                </footer>
+                        </div>
+                </div>
+                <div id="subscribe_dialog">
+                        <div class="shell">
+                                <div class="topbar"><a class="close" href="#">Close</a></div>
+                                <div class="inner"></div>
+                        </div>
+                </div>
+                <div id="mask"></div>
+                <script>$(document).ready(function(){ $(".alert-message").alert(); $("#bsw").twipsy(); });</script>
+                    <!-- twitter widget --><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                <script type="text/javascript">
+                        adroll_adv_id = "7ZLH3TJ7RFHP5IXPNREKUT";
+                        adroll_pix_id = "FXS6CQLPC5G7ZN6YQH3GWR";
+                        (function () {
+                                var oldonload = window.onload;
+                                window.onload = function(){
+                                __adroll_loaded=true;
+                                var scr = document.createElement("script");
+                                var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+                                scr.setAttribute('async', 'true');
+                                scr.type = "text/javascript";
+                                scr.src = host + "/j/roundtrip.js";
+                                ((document.getElementsByTagName('head') || [null])[0] ||
+                                document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+                                if(oldonload){oldonload()}};
+                        }());
+                </script>
+        </body>
+</html>
+ody>
+</html>

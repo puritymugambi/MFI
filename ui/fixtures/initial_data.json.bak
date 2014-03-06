@@ -1,0 +1,66 @@
+[
+    {
+        "pk": 1,
+        "model": "ui.InstitutionType",
+        "fields": {
+            "type_name": "bank"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "ui.InstitutionType",
+        "fields": {
+            "type_name": "forex"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "ui.InstitutionType",
+        "fields": {
+            "type_name": "stock exchange"
+        }
+    },
+
+    {
+        "pk": 1,
+        "model": "ui.Institution",
+        "fields": {
+            "name": "Barclays",
+            "domain": "barclays.co.ke",
+            "webpage": "http://barclays.co.ke/",
+            "typ": 1
+        }
+    },
+    {
+        "pk": 1,
+        "model": "ui.Loan",
+        "fields": {
+            "inst": 1,
+            "loan_name": "Personal loan",
+            "desc": "personal loan description",
+            "link": "http://lonkdds.sd"
+        }
+    },
+
+    {"pk": 1,
+        "model": "ui.Forex",
+        "fields": {
+            "inst": 1,
+            "currency_name": "US Dollar",
+            "buying_price": 29.34,
+            "selling_price": 30.10
+        }
+    },
+
+    {
+        "pk": 1,
+        "model": "ui.Stock",
+        "fields": {
+            "name": "some stock",
+            "inst": 1,
+            "current_price": 123.13,
+            "previous_price": 120.00
+        }
+    }
+]
+
